@@ -1,0 +1,28 @@
+
+### get all tasks
+GET http://localhost:4000/tasks/60910ff03e261530e2c8b1e3
+
+
+###post new task
+POST http://localhost:4000/tasks/60910ff03e261530e2c8b1e3
+Content-Type: application/json
+
+{
+    "title":"task1"
+}
+
+
+### update task by id
+PATCH http://localhost:4000/tasks/6091152930f92d3172eb9403
+Content-Type: application/json
+
+{
+    "title":"update task 1"
+}
+
+
+### delete task by id
+DELETE  http://localhost:4000/tasks/6091152930f92d3172eb9403
+
+### get a single task by id
+GET  http://localhost:4000/tasks/single-task/609117ee957c4131afe28abb

@@ -1,0 +1,27 @@
+
+### get all lists
+GET http://localhost:4000/lists
+
+
+###post new List
+POST http://localhost:4000/lists
+Content-Type: application/json
+
+{
+    "title":"list 3 title"
+}
+
+
+### update list by id
+PATCH http://localhost:4000/lists/60910ff03e261530e2c8b1e3
+Content-Type: application/json
+
+{
+    "title":"update title 1"
+}
+
+
+### delete list by id
+DELETE  http://localhost:4000/lists/6091111abf9331310b8a7a7c
+
+
